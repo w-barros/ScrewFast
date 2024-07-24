@@ -35,51 +35,48 @@ const avatarSrcs: Array<string> = [
   />
 
   <HeroSection
-    title=`Equip Your Projects with <span
-        class="text-yellow-500 dark:text-yellow-400">ScrewFast</span>`
-    subTitle="Top-quality hardware tools and expert construction services for every project need."
-    primaryBtn="Start Exploring"
+    title=`LANÇAMENTO <span
+        class="text-yellow-500 dark:text-yellow-400">Falta muito para a meia noite?</span>`
+    subTitle="Coletânea com os melhores contos de terror de Waldir L. Santos."
+    primaryBtn="Comprar Agora"
     primaryBtnURL="/products"
-    secondaryBtn="Contact Sales Team"
-    secondaryBtnURL="/contact"
+    secondaryBtn="Ver Todos Livros"
+    secondaryBtnURL="/products"
     withReview={true}
     avatars={avatarSrcs}
     rating=`<span class="font-bold">4.8</span> / 5`
     starCount={4}
-    reviews=`From Over <span class="font-bold">12.8k</span> Reviews`
+    reviews=`Mais de <span class="font-bold">12.8k</span> avaliações.`
     src={heroImage}
     alt="Stack of ScrewFast product boxes containing assorted hardware tools"
   />
 
-  <ClientsSection
-    title="Trusted by Industry Leaders"
-    subTitle="Experience the reliability chosen by industry giants."
-  />
 
-  <FeaturesGeneral
+
+  <!-- <FeaturesGeneral
     title="Meeting Industry Demands"
     subTitle="At ScrewFast, we tackle the unique challenges encountered in the hardware and construction sectors. From cutting-edge tools to expert services, we're dedicated to helping you overcome obstacles and achieve your goals."
     src={featureImage}
     alt="ScrewFast products in floating boxes"
     features={features}
-  />
+  /> -->
 
   <FeaturesNavs
-    title=`Customize <span class="text-yellow-500 dark:text-yellow-400">ScrewFast</span>'s offerings to perfectly suit your hardware and construction needs.`
+    title=`Sobre <span class="text-yellow-500 dark:text-yellow-400">Waldir L. Santos</span>.`
     tabs={[
       {
-        heading: "Cutting-Edge Tools",
+        heading: "Sobre 1 Titulo",
         content:
-          "Empower your projects with ScrewFast's cutting-edge tools. Experience enhanced efficiency in construction management with our sophisticated automated solutions.",
+          "Sobre 1 Texto - orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
         svg: "tools",
         src: tools,
         alt: "Yellow and black heavy equipment on brown grass field",
         first: true,
       },
       {
-        heading: "Intuitive Dashboards",
+        heading: "Sobre 2 Titulo",
         content:
-          "Navigate with ease using ScrewFast's intuitive dashboards. Set up and oversee your projects seamlessly, with user-friendly interfaces designed for quick and effective workflow management.",
+          "Sobre 2 Texto - orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.",
         svg: "dashboard",
         src: dashboard,
         alt: "A screenshot or graphic representation of the intuitive dashboard",
@@ -97,49 +94,56 @@ const avatarSrcs: Array<string> = [
   />
 
   <TestimonialsSection
-    title="Fast-Track Your Projects"
-    subTitle="At ScrewFast, we ensure a swift start with instant account setup. Experience the speed of construction redefined."
-    ;
-    testimonials={[
-      {
-        content:
-          "ScrewFast dramatically boosted our project efficiency. Setup was instant, and their rapid response times are phenomenal. Truly a game-changer in hardware and construction support!",
-        author: "Samantha Ruiz",
-        role: "Chief Operating Officer | ConstructIt Inc.",
-        avatarSrc:
-          "https://images.unsplash.com/photo-1593104547489-5cfb3839a3b5?q=80&w=1453&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80",
-      },
-    ]}
-    statistics={[
-      {
-        count: "70k+",
-        description:
-          "customers equipped — from DIY to major construction firms",
-      },
-      {
-        count: "35%",
-        description:
-          "uptick in project efficiency with ScrewFast tools and services",
-      },
-      {
-        count: "15.3%",
-        description:
-          "reduction in maintenance costs reported by long-term clients",
-      },
-      {
-        count: "2x",
-        description: "quicker assembly using innovative fastening solutions",
-      },
-    ]}
-  />
+  title="Frase de efeito - Titulo"
+  subTitle="Frase de efeito - subtitulo."
+  ;
+  testimonials={[
+    {
+      content:
+        "Depoimento altamente impactante, da uma olhada ai nos que vc recebeu pra pegar um que pegue bem mas não seja muito pastelão - algo mais comedido....",
+      author: "Samantha Ruiz",
+      role: "Chief Operating Officer | ConstructIt Inc.",
+      avatarSrc:
+        "https://images.unsplash.com/photo-1593104547489-5cfb3839a3b5?q=80&w=1453&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80",
+    },
+  ]}
+  statistics={[
+    {
+      count: "70k+",
+      description:
+        "páginas lidas — (faz sentido isso?)",
+    },
+    {
+      count: "3479",
+      description:
+        "livros vendidos",
+    },
+    {
+      count: "6",
+      description:
+        "livros publicados",
+    },
+    {
+      count: "140kg",
+      description: "de puro sorvete (sacanagem kkkkkkk)",
+    },
+  ]}
+/>
 
-  <PricingSection pricing={pricing} />
+  <ClientsSection
+  title="Premios e Menções"
+  subTitle="Não sei o que colocar nesse subtitulo."
+/>
 
-  <FAQ title="Frequently<br />asked questions" faqs={faqs} />
+
+
+  <!-- <PricingSection pricing={pricing} /> -->
+
+  <!-- <FAQ title="Frequently<br />asked questions" faqs={faqs} /> -->
 
   <HeroSectionAlt
-    title="Let's Build Together"
-    subTitle="ScrewFast is an open-source template, meticulously crafted with Astro, Tailwind CSS, and Preline UI frameworks."
+    title="Conheça meu Trabalho"
+    subTitle="Conheça meu Trabalho - Subtitulo (algo que incentive o usuario a clicar)."
     url="https://github.com/mearashadowfax/ScrewFast"
   />
 </MainLayout>
