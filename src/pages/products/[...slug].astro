@@ -6,6 +6,7 @@ import PrimaryCTA from "@components/ui/buttons/PrimaryCTA.astro";
 import { Image } from "astro:assets";
 import { getCollection } from "astro:content";
 import { SITE } from "@data/constants";
+import SecondaryCTA from "@/components/ui/buttons/SecondaryCTA.astro";
 
 // Global declaration for gsap animation library
 declare global {
@@ -53,6 +54,16 @@ const pageTitle: string = `${product.data.title} | ${SITE.title}`;
         </h1>
         <p class="text-lg text-neutral-600 dark:text-neutral-400">
           {product.data.description}
+        </p>
+        <p class="mt-5">
+        <PrimaryCTA
+          title={product.data.mainSeller.btnTitle}
+          url={product.data.mainSeller.btnURL}
+        />
+        <SecondaryCTA
+          title={product.data.longDescription.btnTitle}
+          url={product.data.longDescription.btnURL}
+        />
         </p>
       </div>
       <div>
@@ -102,10 +113,10 @@ const pageTitle: string = `${product.data.title} | ${SITE.title}`;
                 {product.data.longDescription.subTitle}
               </p>
               <p class="mt-5">
-                <PrimaryCTA
+                <!-- <PrimaryCTA
                   title={product.data.longDescription.btnTitle}
                   url={product.data.longDescription.btnURL}
-                />
+                /> -->
               </p>
             </div>
 

@@ -28,6 +28,10 @@ const productsCollection = defineCollection({
       btnTitle: z.string(),
       btnURL: z.string(),
     }),
+    mainSeller: z.object({
+      btnTitle: z.string(),
+      btnURL: z.string(),
+    }),
     descriptionList: z.array(
       z.object({
         title: z.string(),

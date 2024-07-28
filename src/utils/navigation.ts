@@ -4,7 +4,7 @@ const navBarLinks = [
   { name: "Livros", url: "/products" },
   //{ name: "Services", url: "/services" },
   //{ name: "Blog", url: "/blog" },
-  { name: "Contato", url: "/contact" },
+  // { name: "Contato", url: "/contact" },
 ];
 // An array of links for footer
 const footerLinks = [
@@ -12,7 +12,6 @@ const footerLinks = [
     section: "Leia",
     links: [
       { name: "Amazon", url: "/welcome-to-docs/" },
-      { name: "Saraiva", url: "/products" },
       { name: "Jambô", url: "/products" },
     ],
   },
@@ -21,7 +20,7 @@ const footerLinks = [
     links: [
       { name: "Home", url: "#" },
       { name: "Livros", url: "/blog" },
-      { name: "Contato", url: "#" },
+      // { name: "Contato", url: "#" },
     ],
   },
 ];
