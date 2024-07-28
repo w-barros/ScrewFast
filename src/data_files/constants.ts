@@ -1,12 +1,12 @@
 import ogImageSrc from "@images/social.png";
 
 export const SITE = {
-  title: "ScrewFast",
-  tagline: "Top-quality Hardware Tools",
-  description: "ScrewFast offers top-tier hardware tools and expert construction services to meet all your project needs. Start exploring and contact our sales team for superior quality and reliability.",
-  description_short: "ScrewFast offers top-tier hardware tools and expert construction services to meet all your project needs.",
-  url: "https://screwfast.uk",
-  author: "Emil Gulamov",
+  title: "Waldir L Santos",
+  tagline: "Ficção e Terror de Alta Qualidade",
+  description: "Escritor premiado no Impact Short Film Awards, realizou seu sonho cinematográfico com Barba e é conhecido por obras de terror como Flor de Sangue e Cativeiro do Medo.",
+  description_short: "Escritor Brasileiro, premiado internacionalmente por obras de Drama e Ficção.",
+  url: "https://waldirlsantos.com.br",
+  author: "wbarros",
 };
 
 export const SEO = {
@@ -15,7 +15,7 @@ export const SEO = {
   structuredData: {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    inLanguage: "en-US",
+    inLanguage: "pt-BR",
     "@id": SITE.url,
     url: SITE.url,
     name: SITE.title,
@@ -30,10 +30,10 @@ export const SEO = {
 };
 
 export const OG = {
-  locale: "en_US",
+  locale: "pt_BR",
   type: "website",
   url: SITE.url,
-  title: `${SITE.title}: : Hardware Tools & Construction Services`,
-  description: "Equip your projects with ScrewFast's top-quality hardware tools and expert construction services. Trusted by industry leaders, ScrewFast offers simplicity, affordability, and reliability. Experience the difference with user-centric design and cutting-edge tools. Start exploring now!",
+  title: `${SITE.title}: Ficção e Terror de Alta Qualidade`,
+  description: "Descubra as obras premiadas de Waldir L. Santos, mestre em ficção e terror. Conheça suas histórias envolventes e mergulhe em um universo de suspense e criatividade. Explore agora!",
   image: ogImageSrc,
 };
