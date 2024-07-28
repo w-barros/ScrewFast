@@ -28,7 +28,11 @@ const productsCollection = defineCollection({
       btnTitle: z.string(),
       btnURL: z.string(),
     }),
-    mainSeller: z.object({
+    primarySeller: z.object({
+      btnTitle: z.string(),
+      btnURL: z.string(),
+    }),
+    secondarySeller: z.object({
       btnTitle: z.string(),
       btnURL: z.string(),
     }),

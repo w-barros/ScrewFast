@@ -24,9 +24,12 @@ longDescription:
     Flor de Sangue é um suspense com um ponto de vista único. Abra estas páginas e descubra que mesmo as melhores intenções podem ser recheadas com o pior do ser humano.
   btnTitle: "Contact sales to learn more"
   btnURL: "#"
-mainSeller:
+primarySeller:
   btnTitle: "Comprar Digital em Amazon Store"
   btnURL: "https://www.amazon.com.br/Flor-Sangue-Waldir-L-Santos-ebook/dp/B087WSM8YR?ref_=ast_author_dp&dib=eyJ2IjoiMSJ9.UIIhgCdxira8X3-NvkqY3ZEDxaxcmBl24L7puHEtWmdr4SqZGVznSv3a2yjfHx584K12_GnnywjrNAzTUGX-qWVmIqFD1guAVfNdHaDjFvo.svPWu8UYcWFiN66bc2Gk_4e9yXwfLIB9JD2Bd4sfjzs&dib_tag=AUTHOR#detailBullets_feature_div"
+secondarySeller:
+  btnTitle: "Comprar em Editora Jambô"
+  btnURL: "https://jamboeditora.com.br/produto/flor-de-sangue/"
 descriptionList:
   - title: "TOP 500 Crime, Mistério, Thriller e Suspense"
     subTitle: "Entre os 500 livros mais vendidos nos genêros Crime, Mistério, Thriller e Suspense da Amazon Store."
