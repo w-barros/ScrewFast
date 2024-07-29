@@ -56,7 +56,7 @@ specificationsRight:
   - title: "Dicas de vocabulário"
     subTitle: "Não habilitado"
 blueprints:
-  first: "@/images/blueprint-1.avif"
-  second: "@/images/blueprint-2.avif"
+  first: "@/images/flor-de-sangue-verso.avif"
+  second: "@/images/flor-de-sangue-kindle.avif"
 slug: flor-de-sangue    
 ---

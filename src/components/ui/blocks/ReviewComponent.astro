@@ -9,7 +9,7 @@ interface Props {
   avatars?: Array<string>;
   starCount?: number;
   rating?: string;
-  reviews?: string;
+  reviews?: number;
 }
 ---
 
@@ -24,8 +24,8 @@ interface Props {
             class="inline-flex h-8 w-8 items-center justify-center rounded-full bg-zinc-800 ring-2 ring-white dark:bg-zinc-900 dark:ring-zinc-800"
           >
             <span class="text-xs font-medium uppercase leading-none text-white"
-              >7k+</span
-            >
+              >+<Fragment set:html={reviews? reviews - 4 : 0} /> 
+              </span>
           </span>
         </div>
       </div>
@@ -52,7 +52,7 @@ interface Props {
         </div>
         <div class="text-sm text-neutral-800 dark:text-neutral-200 sm:ps-5">
           <p>
-            <Fragment set:html={reviews} />
+            <Fragment set:html={reviews} /> avaliações.
           </p>
         </div>
       </div>
