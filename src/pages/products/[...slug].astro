@@ -69,7 +69,7 @@ const avatarSrcs: Array<string> = [
               title={product.data.primarySeller.btnTitle}
               url={product.data.primarySeller.btnURL}
             />
-            {product.data.secondarySeller && (
+            {product.data.secondarySeller && product.data.secondarySeller.btnTitle.trim() !== "" && (
               <SecondaryCTA
                 title={product.data.secondarySeller.btnTitle}
                 url={product.data.secondarySeller.btnURL}
@@ -78,7 +78,7 @@ const avatarSrcs: Array<string> = [
           </div>
         </p>
         <p>
-          <ReviewComponent avatars={avatarSrcs} starCount={4} rating={'<strong>4.3</strong> / 5'} reviews={202} />
+          <ReviewComponent avatars={avatarSrcs} starCount={product.data.reviews.starCount} rating={'<strong>' + product.data.reviews.rating +' </strong> / 5'} reviews={product.data.reviews.reviewCount} />
         </p>
       </div>
       <div>

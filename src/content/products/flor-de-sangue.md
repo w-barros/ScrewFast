@@ -30,6 +30,10 @@ primarySeller:
 secondarySeller:
   btnTitle: "Comprar em Editora Jambô"
   btnURL: "https://jamboeditora.com.br/produto/flor-de-sangue/"
+reviews:
+  starCount: 4
+  rating: "4.3"
+  reviewCount: 202
 descriptionList:
   - title: "TOP 500 Crime, Mistério, Thriller e Suspense"
     subTitle: "Entre os 500 livros mais vendidos nos genêros Crime, Mistério, Thriller e Suspense da Amazon Store."

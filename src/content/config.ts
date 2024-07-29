@@ -36,6 +36,11 @@ const productsCollection = defineCollection({
       btnTitle: z.string(),
       btnURL: z.string(),
     }),
+    reviews: z.object({
+      starCount: z.number(),
+      rating: z.string(),
+      reviewCount: z.number(),
+    }),
     descriptionList: z.array(
       z.object({
         title: z.string(),
