@@ -19,7 +19,7 @@ tabs:
     dataTab: "#tabs-with-card-3"
     title: "Imagens"
 longDescription:
-  title: "Um Thriller de Waldir L. Santos"
+  title: "O ser humano só precisa de comida, água e um sonho."
   subTitle: |
     Barba é um velho morador de rua comprometido com a missão de pensar. Atento às pessoas ao redor, é capaz de interpretá-las com uma sensibilidade peculiar. Inteligente e sagaz, questiona os pilares da sociedade com uma provocação necessária, e convida a entendermos as mais diversas formas de solidão que eles geram. Com uma linguagem bem-humorada e delicada, Barba traz à luz aqueles que continuam às sombras do preconceito, da invisibilidade e do abandono.
   btnTitle: "Contact sales to learn more"
@@ -37,9 +37,9 @@ reviews:
 descriptionList:
   - title: "TOP 500 Crônicas, Humor e Entretenimento."
     subTitle: "Entre os 500 livros mais vendidos nos genêros Crime, Mistério, Thriller e Suspense da Amazon Store."
-  - title: "Coisa Sobre Flor de Sangue 2"
+  - title: "Coisa Barba 2"
     subTitle: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis n."
-  - title: "Coisa Sobre Flor de Sangue 3"
+  - title: "Coisa Sobre Barba 3"
     subTitle: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis n"
 specificationsLeft:
   - title: "ASIN"
