@@ -2,7 +2,7 @@
 title: "Flor de Sangue"
 description: "Flor de Sangue"
 main:
-  id: 1
+  id: 2
   content: |
     Quadros inebriantes, cores vibrantes, mortes e fama. De uma vida singela à capa dos jornais, o padrão de vida de Vanderlei e Margarida evolui com a mesma velocidade da venda de suas enigmaticas pinturas… Mas a que preço? Esta história alimenta os piores medos dos seres humanos, e mostra que boas intenções podem ser regadas a sangue.
   imgCard: "@/images/flor-de-sangue.webp"
